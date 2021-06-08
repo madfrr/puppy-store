@@ -100,7 +100,7 @@ WSGI_APPLICATION = 'puppy_store.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'puppy_store_drf',
         'USER': 'puppies',
         'PASSWORD': 'puppies',
