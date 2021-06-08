@@ -76,19 +76,19 @@ CORS_ALLOW_METHODS = list(default_methods)
 CORS_ALLOW_HEADERS = list(default_headers)
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:58838',
     'http://localhost:8000',
-    'http://localhost:41897',
-    'http://127.0.0.1:8000',
-    'http://localhost',
-    'http://127.0.0.1',
-    'https://localhost:58838',
-    'https://localhost:8000',
-    'https://localhost:41897',
-    'https://127.0.0.1:8000',
-    'https://localhost',
-    'https://127.0.0.1',
-    'https://puppy-store.herokuapp.com'
+    # 'https://localhost:8000',
+    # 'http://localhost:58838',
+    # 'http://localhost:41897',
+    # 'http://127.0.0.1:8000',
+    # 'http://localhost',
+    # 'http://127.0.0.1',
+    # 'https://localhost:58838',
+    # 'https://localhost:41897',
+    # 'https://127.0.0.1:8000',
+    # 'https://localhost',
+    # 'https://127.0.0.1',
+    # 'https://puppy-store.herokuapp.com'
 ]
 
 ROOT_URLCONF = 'puppy_store.urls'
