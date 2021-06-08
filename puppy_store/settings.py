@@ -38,7 +38,7 @@ SECRET_KEY = 'django-insecure-75+bvvx3cxz!eg2=wt)wvg8yrpvi@e646vt(_84$hfi_x**r+f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+#ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -76,19 +76,7 @@ CORS_ALLOW_METHODS = list(default_methods)
 CORS_ALLOW_HEADERS = list(default_headers)
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8000',
-    # 'https://localhost:8000',
-    # 'http://localhost:58838',
-    # 'http://localhost:41897',
-    # 'http://127.0.0.1:8000',
-    # 'http://localhost',
-    # 'http://127.0.0.1',
-    # 'https://localhost:58838',
-    # 'https://localhost:41897',
-    # 'https://127.0.0.1:8000',
-    # 'https://localhost',
-    # 'https://127.0.0.1',
-    # 'https://puppy-store.herokuapp.com'
+    'http://localhost:8000'
 ]
 
 ROOT_URLCONF = 'puppy_store.urls'
