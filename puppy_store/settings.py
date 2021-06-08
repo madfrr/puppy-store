@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
+import django_heroku
 #from .middleware import CORSMiddleware
 from corsheaders.defaults import default_methods
 from corsheaders.defaults import default_headers
@@ -158,3 +159,4 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+django_heroku.settings(locals())
