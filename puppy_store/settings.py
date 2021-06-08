@@ -82,7 +82,7 @@ TEMPLATES = [
         },
     },
 ]
-
+# banana
 WSGI_APPLICATION = 'puppy_store.wsgi.application'
 
 # Database
